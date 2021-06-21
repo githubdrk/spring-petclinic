@@ -1,6 +1,6 @@
 node {
     stage('scm'){
-        git 'https://github.com/dummyrepos/spring-petclinic.git'
+        git 'https://github.com/githubdrk/spring-petclinic.git'
     }
 
     stage('maven'){
